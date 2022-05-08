@@ -182,11 +182,18 @@ let refreshMe = () => {
 let anchor = document.querySelector("#anchor-tag-auto-refresh").addEventListener("click", refreshMe);
 let refresh = document.querySelector("#footer-auto-refresh").addEventListener("click", refreshMe);
 
+
+
+
 let redirectCart = () => {
-    window.location.href = "cart.html";
+    window.location.href = "../cartpage/cart.html";
 }
 let cart = document.querySelector("#userCart-div").addEventListener("click", redirectCart);
-document.querySelector(".addtoBag-btn").addEventListener("click", redirectCart)
+
+let redirectCart1 = () => {
+    window.location.href = "../finalproducts/PAGE1/shop.html";
+}
+document.querySelector(".addtoBag-btn").addEventListener("click", redirectCart1);
 
 // *****************ends***********
 

@@ -149,3 +149,6 @@ hr {
     margin-left: auto;
     cursor: pointer;
 }
+#button-to-new{
+    text-decoration: none;
+}
