@@ -1,4 +1,15 @@
+
+
+
+
+
+
 /**********************promotion code */
+
+
+
+
+
 let promotioncodechange = document.getElementById("promotioncodechange");  /// click button
 
 let collapase2 = document.querySelector(".promocodedisplay");  // content display
@@ -87,6 +98,15 @@ creditcardradioButton.addEventListener("click",()=>{
 
 
 
+// ---------------------------------------------------------------review----------------------------->
+let review = async (e) => {
+ alert("ORDER PLACERD"+"\n"+"ORDER ID 465094751655")
+
+    window.location.href="index.html"
+
+    
+};
+document.getElementById("review").addEventListener("click", review);
 
 
 

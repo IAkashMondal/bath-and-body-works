@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+ 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
@@ -45,28 +46,15 @@
    position: relative;
    bottom: 20px;
 }
-        #billing_main_address{
-            /* height: 100%;
-            width: 100%;
-            display: flex;
-          font-family: "Trade Gothic W01 Light", Arial, sans-serif;
-          font-style: normal;
-          font-weight: 400;
-          size: 24px;
-          line-height: 24px;
-          color: #333333; */
-
-            
-
-
-        }
-        #addres_page{
+  
+        
+        /* #addres_page{
             height: 250px;
             justify-content: space-between;
             margin-top: 50px;
             margin-left: 150px;
 
-}
+} */
 
         #second_page_billing{
             height: 200px;
@@ -105,11 +93,16 @@
         .code_apply{
             position: relative;
         }
-        .review{
-             height: 35px;
-             width: 130px;
+        #review{
+             
+             margin: auto;
+            background-color: black;
+            border: none;
+            color: #ddd;
+            padding: 10px;
+            text-align: center;
         }
-        .review:hover{
+        #review:hover{
          background-color: black;
          color: white;
         }
@@ -142,14 +135,21 @@
         #security_of{
             height: 35px;
             width: 100px;
+        }#mid{
+            margin: auto;
+            display: flex;
+            justify-content: center;
+
+            
         }
     </style>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body onload="colorchange()">
     <div class="checkout-progress-indicater" role="list">
         <div class="step-1" role="listitem">
             <p >Shipping</p>
-            <span id="step11"> 1 <hr id="line" class="line11"></span>
+         <a href="pay.html"><span id="step11"> 1 <hr id="line" class="line11"></span></a>  
         
         </div>
         
@@ -157,7 +157,7 @@
         
         <div class="step-2 inactive" role="listitem">
             <p >Billing</p>
-            <span id="step22">2 <hr id="line"></span>
+            <a href="billing.html"><span id="step22">2 <hr id="line"></span></a>  
           
         </div>
         
@@ -177,20 +177,12 @@
 
 
 
-
+<div id="mid">
 
 
     <div id="billing_main_address">
 
 <div id="addres_page">
-
-
-    <label for="">BILLING ADDRESS</label><br><br>
-    <div  class="address_bill">
-       
-
-
-        <a href="pay.html">Edit</a>
 
 
     </div>
@@ -310,7 +302,7 @@
                     <p>Please complete all form fields before continuing
                     </p>
 
-                    <button class="review">REVIEW ORDER</button>
+                    <button id="review">REVIEW ORDER</button>
                     <a class="privacy_prayuman" href="Privacy.html"> Privacy Policy.</a>
 
          </div>                        <!--credit card display-->
@@ -333,6 +325,7 @@
 
 
 <!-- <div id="second_page_billing"> </div> -->
+</div>
 </div>
 
 <script src="Biling.js"></script>
