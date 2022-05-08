@@ -1,0 +1,1069 @@
+#product-container {
+  /* border: 3px solid blue; */
+  margin-top: 1.4px;
+}
+#mothersday_image-div {
+  /* border: 1px solid; */
+  width: 72em;
+  height: 40em;
+  /* background: no-repeat
+    url("https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw4bac64f2/images/Spring2022/595blbc_sp3_hm_to.gif?yocs=s_"); */
+  background-size: cover;
+  margin: auto;
+}
+.first-image-tag{
+  width: 100%;
+  height: 100%;
+}
+
+.slideshow-container {
+  display: flex;
+  /* height: 400px; */
+  /* width: 80%; */
+  margin: auto;
+  /* border: 3px solid; */
+  margin-top: 5.3em;
+}
+.first-sliding-strip {
+  display: flex;
+}
+.second-sliding-strip {
+  display: flex;
+}
+
+.product {
+  width: 80%;
+  margin: auto;
+  /* border: 2px solid orange; */
+  padding: 0em 0em 4em;
+  position: relative;
+  overflow: hidden;
+  /* padding: 20px; */
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+}
+
+.product-category {
+  padding: 0 10vw;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Asap Condensed", sans-serif;
+}
+
+.product-container {
+  padding: 0 6vw;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  /* border: 1px solid black; */
+  width: auto;
+  /* height: 350px; */
+}
+.description-div {
+  /* width: 100%; */
+  height: 202px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.product-container::-webkit-scrollbar {
+  display: none;
+}
+
+.product-card {
+  flex: 0 0 auto;
+  width: 230px;
+  height: 295px;
+  margin-right: 40px;
+  /* box-shadow: rgba(0, 0, 0, 0.02) 0px 0px px 1px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+  border: 0.001em solid rgb(232, 232, 232);
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.pre-btn,
+.nxt-btn {
+  border: none;
+  width: 3em;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%); */
+  cursor: pointer;
+  background-color: #f5f5f5;
+  z-index: 8;
+}
+
+.pre-btn {
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.nxt-btn {
+  right: 0;
+}
+
+.pre-btn img,
+.nxt-btn img {
+  opacity: 0.7;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+  opacity: 1;
+  background: transparent;
+}
+#arrow-image {
+  /* width: 40px; */
+  height: 20px;
+  image-resolution: 1080px;
+}
+#arrow-image:hover {
+  color: black;
+  border: 2px solid;
+  border-radius: 50%;
+  width: 20px;
+}
+.button-container {
+  text-align: center;
+}
+#shop-button {
+  margin-top: 10px;
+  width: 10.25em;
+  height: 3em;
+  font-size: 16px;
+  background-color: #333333;
+  border: none;
+  color: white;
+  font-weight: 400;
+}
+#shop-button:hover {
+  background-color: rgb(221, 221, 221);
+  color: rgb(54, 54, 54);
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+}
+.Limited-time {
+  font-size: 20px;
+  color: #005699;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  box-sizing: border-box;
+  font-weight: 700;
+  /* margin-top: 7px; */
+}
+.spring-gift {
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+  color: rgb(54, 54, 54);
+  font-weight: 100;
+  margin-top: -28px;
+}
+.black-tag {
+  padding: 10px;
+  color: rgb(19, 19, 19);
+  font-size: 20px;
+  font-weight: 550;
+  margin-top: -20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.black-tag1 {
+  padding: 10px;
+  color: rgb(19, 19, 19);
+  font-size: 20px;
+  font-weight: 550;
+  margin-top: -11px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.limits {
+  font-size: 15px;
+  font-weight: 100;
+  margin-top: -18px;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  color: #333333;
+}
+.limits1 {
+  font-size: 15px;
+  flex-wrap: wrap;
+  font-weight: 100;
+  margin-top: -10px;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  padding: 0px 21px 0px 21px;
+  color: #333333;
+}
+.therapy {
+  font-size: 15px;
+  font-weight: 200;
+  color: #333333;
+  margin-top: -20px;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+.wallflower {
+  font-size: 15px;
+  font-weight: 100;
+  margin-top: 80px;
+  color: #333333;
+  padding: 0px 25px 0px 25px;
+}
+.travel {
+  font-size: 15px;
+  color: #333333;
+  font-weight: 100;
+  padding: 0px 25px 0px 25px;
+  margin-top: 58px;
+}
+.black-tag2 {
+  /* padding: 10px; */
+  color: rgb(19, 19, 19);
+  font-size: 20px;
+  font-weight: 550;
+  margin-top: -8px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 7px 30px 0px 30px;
+}
+.travel2 {
+  font-size: 15px;
+  color: #333333;
+  font-weight: 100;
+  padding: 0px 40px 0px 40px;
+  margin-top: 40px;
+}
+.travel1 {
+  font-size: 15px;
+  color: #333333;
+  font-weight: 100;
+  padding: 0px 30px 0px 30px;
+  margin-top: -5px;
+}
+.site_products-div {
+  height: 100em;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 2px;
+}
+.spring-gift-div {
+  /* border: 1px solid; */
+  height: 180px;
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+.limited-time {
+  font-size: 19px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: rgb(60, 60, 60);
+}
+.spring-time {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  color: rgb(42, 42, 42);
+  margin-top: -9px;
+}
+.gift-message {
+  font-size: 16px;
+  color: rgb(93, 93, 93);
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  margin-top: -15px;
+}
+.button-shop {
+  margin-top: 5px;
+  width: 7.2em;
+  height: 3em;
+  font-size: 16px;
+  border: none;
+  background-color: rgb(221, 221, 221);
+  font-weight: 500;
+}
+.button-shop:hover {
+  border: none;
+  background-color: #333333;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+.image-cart-display-div {
+  /* border: 2px solid; */
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.offer_image-div {
+  /* border: 1px solid; */
+  width: 53em;
+  height: 30em;
+}
+.offer_image-div img {
+  width: 100%;
+  height: 100%;
+}
+.adding_to_bag-div {
+  /* border: 1px solid; */
+  height: 23em;
+  width: 15em;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.changing-image-div {
+  height: 10em;
+  width: 100%;
+  margin: auto;
+  /* border: 1px solid orange; */
+}
+.hover-change {
+  /* border: 1px solid; */
+  height: 10em;
+  width: 7.4em;
+  margin: auto;
+  background: no-repeat
+    url("https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw5e7830a6/crop/025144398_crop.jpg?sw=500&amp;sh=600&amp;sm=fit&amp;q=75&amp;yocs=o_s_");
+  background-size: cover;
+}
+.hover-change:hover {
+  background: no-repeat
+    url("https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw57c95821/hires/025144398_alt_1.jpg?sh=413&yocs=o_s_");
+  background-size: cover;
+}
+.content-wrapper {
+  width: 100%;
+  height: 10em;
+  /* border: 1px solid green; */
+  margin: auto;
+  position: -webkit-sticky;
+}
+.new {
+  font-size: 15px;
+  font-weight: 600;
+  color: #005699;
+  margin-top: 3px;
+}
+.limited-edition {
+  font-size: 16px;
+  color: #232323;
+  margin-top: 5px;
+}
+.spring_gift {
+  font-size: 13px;
+  font-weight: 100;
+  color: #666666;
+  margin-top: -14px;
+}
+.price-tag {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333333;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: -3px;
+}
+.offer-info {
+  font-size: 13px;
+  font-weight: 100;
+  color: #cc0000;
+  margin-top: -13px;
+}
+.addtoBag-btn {
+  width: 16em;
+  height: 3.3em;
+  font-size: 16px;
+  font-weight: bolder;
+  border: none;
+  background-color: #333333;
+  color: white;
+}
+.addtoBag-btn:hover {
+  background-color: rgb(222, 222, 222);
+  color: #333333;
+  transition: 0.3s ease-out;
+}
+.give-love-div {
+  width: 76%;
+  height: 41em;
+  /* border: 1px solid; */
+  margin: auto;
+  background: no-repeat
+    url("https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw377d7fac/images/Spring2022/diff_mday_sp3_hm.jpg?yocs=s_");
+  background-size: cover;
+  margin-top: 3em;
+}
+.category-shopping-div {
+  /* border: 2px solid orangered; */
+  width: 71em;
+  /* height: 200px; */
+  margin: auto;
+  margin-top: 48px;
+}
+.title-category_shop {
+  border: 1px solid #fff;
+  width: 20em;
+  height: 3em;
+  margin: auto;
+  text-align: center;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333333;
+}
+.category-display-div {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  gap: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 421px) and (max-width: 780px){
+  .category-display-div {
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat((2,400px));
+    gap: 20px;
+  }
+
+}
+
+
+.category-display-div > div {
+  /* border: 1px solid black; */
+  height: 200px;
+  width: 168px;
+}
+.category-display-div > div > div:nth-child(1) {
+  /* border: 1px solid green; */
+  height: 165px;
+  width: 168px;
+}
+.category-display-div > div > div:nth-child(2) {
+  margin: 8px 0px 0px;
+}
+.category-display-div > div > div:nth-child(2) > a {
+  color: #2f2f2f;
+}
+.category-display-div > div > div:nth-child(2) > a:hover {
+  text-decoration: none;
+}
+.category-image {
+  width: 100%;
+  height: 100%;
+}
+
+.product-showcase-section {
+  /* border: 2px solid orangered; */
+  width: 72em;
+  height: 62.9em;
+  margin: auto;
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 495px);
+  gap: 30px;
+  text-align: center;
+}
+/* @media only screen and (min-width: 421px) and (max-width: 780px){
+  .product-showcase-section {
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat((1,62.9em));
+    gap: 20px;
+  }
+  
+} */
+
+/* .product-display{
+    border: 1px solid green;
+} */
+.product-section-image-div {
+  /* border: 1px solid blue; */
+  width: 100%;
+  height: 420px;
+}
+.product-section-image {
+  width: 100%;
+  height: 100%;
+}
+.product-display-tag {
+  font-size: 16px;
+  font-weight: 100;
+  color: #666666;
+  font-family: "Roboto", sans-serif;
+  margin: 8px 0px 14px;
+}
+.anchor-tag {
+  font-size: 14px;
+  color: #333333;
+  font-weight: 300;
+  margin: 8px 0px 0px;
+  font-family: "Roboto", sans-serif;
+  /* font-family: TradeGothicLTW05-BoldNo\.2,Arial,sans-serif; */
+}
+.anchor-tag:hover {
+  text-decoration: none;
+}
+.mothersday-image-div {
+  /* border: 1px solid black; */
+  width: 72em;
+  height: 20.3em;
+  margin: auto;
+  margin-top: 38px;
+}
+.mothersday-image {
+  width: 100%;
+  height: 100%;
+}
+/* .button-group-div{
+    display: inline-flex;
+    margin: auto;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    justify-content: center;
+    height: 152px;
+    width: 72em;
+    border: 1px solid orangered; 
+    margin-top: 32px;
+} */
+.button-group-div {
+  margin: auto;
+  display: flex;
+  /* border: 1px solid orangered; */
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  row-gap: 24px;
+  column-gap: 30px;
+  padding-top: 32px;
+}
+#button-group {
+  margin: auto;
+  width: 72em;
+  height: 150px;
+  /* border: 1px solid orangered; */
+  margin-top: 35px;
+}
+.link-button {
+  /* border: 1px solid green; */
+  display: flex;
+  width: auto;
+  height: 48px;
+  padding: 0px 32px;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  background-color: #333;
+  font-family: TradeGothicLTW05-BoldNo\.2, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.015em;
+}
+.link-button:hover {
+  background-color: #e0e0e0;
+  color: #333333;
+  font-family: TradeGothicLTW05-BoldNo\.2, Arial, sans-serif;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+.heading-grid {
+  width: 85%;
+  /* height: 260px; */
+  /* border: 1px solid black; */
+  text-align: center;
+  margin: auto;
+}
+.marketings-headings-div {
+  /* font-size: 24px; */
+  /* border: 1px solid peru; */
+  margin: auto;
+  width: 72em;
+  height: 45px;
+  /* margin: 0px 0px 16px; */
+  margin-bottom: 16px;
+}
+.marketings-head {
+  font-size: 24px;
+  font-family: TradeGothicLTW05-BoldNo\.2, Arial, sans-serif;
+  font-weight: bolder;
+  color: #333333;
+}
+.grid-content {
+  /* border: 1px solid red; */
+  width: 75.5em;
+  height: 200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 32px;
+  box-sizing: border-box;
+}
+.grid-link {
+  /* border: 1px solid teal; */
+  box-sizing: border-box;
+}
+.image-content-div {
+  width: 97%;
+  height: 165px;
+  /* border: 2px solid rgb(143, 94, 4); */
+  /* background: no-repeat url(""); */
+}
+.grid-link > div:nth-child(2) {
+  height: 28px;
+  width: auto;
+  /* border: 2px solid blueviolet; */
+  text-decoration: none;
+  color: #333333;
+  box-sizing: border-box;
+}
+#anchors {
+  /* text-decoration: none; */
+  color: #333333;
+  font-size: 14px;
+  margin: 8px 0px 0px;
+  font-family: TradeGothicLTW05-BoldNo\.2, Arial, sans-serif;
+  font-weight: 500;
+}
+#anchors:hover {
+  text-decoration: none;
+}
+.image-content-div img {
+  height: 100%;
+  width: 100%;
+}
+#carousel-container2 {
+  width: 73em;
+  height: 400px;
+  /* border: 2px solid black; */
+  margin: auto;
+}
+
+/* 2nd carousel */
+
+.product1 {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.image-category {
+  padding: 0 10vw;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #333333;
+  text-transform: capitalize;
+  text-align: center;
+  font-family: TradeGothicLTW05-BoldNo\.2, Arial, sans-serif;
+  letter-spacing: 0.3em;
+}
+.image-category-ptag {
+  font-family: TradeGothicLTW05-BoldNo\.2, Arial, sans-serif;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: -30px;
+  color: #666666;
+  margin-bottom: 40px;
+}
+.im-span {
+  font-size: 32px;
+  color: #333333;
+  margin-right: 3px;
+}
+
+.image-container {
+  padding: 0 4vw;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.image-container::-webkit-scrollbar {
+  display: none;
+}
+
+.image-card {
+  flex: 0 0 auto;
+  width: 225px;
+  height: 225px;
+  margin-right: 40px;
+  /* border: 1px solid brown; */
+}
+
+.product-image1 {
+  position: relative;
+  width: 100%;
+  height: 225px;
+  overflow: hidden;
+}
+
+.image-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pre-btn1,
+.nxt-btn1 {
+  border: none;
+  width: 10vw;
+  height: 100%;
+  position: absolute;
+  top: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+  cursor: pointer;
+  z-index: 8;
+}
+
+#arrow-image1 {
+  width: 20px;
+  height: 20px;
+}
+
+.pre-btn1 {
+  left: 0;
+  transform: rotate(180deg);
+  margin-left: -40px;
+}
+
+.nxt-btn1 {
+  right: 0;
+  margin-right: -35px;
+}
+
+.pre-btn1 img,
+.nxt-btn1 img {
+  opacity: 0.8;
+}
+
+.pre-btn1:hover img,
+.nxt-btn1:hover img {
+  opacity: 0.4;
+}
+
+.website-description-div {
+  /* border: 1px solid black; */
+  height: 300px;
+  width: 1024px;
+  font-family: TradeGothicLTW05-BoldNo\.2, Arial, sans-serif;
+  margin: auto;
+}
+.description-heading {
+  /* border: 1px solid green; */
+  /* height: 20px; */
+  /* width: 830px;  */
+  text-align: center;
+  margin: auto;
+  font-size: 28px;
+  font-weight: 400;
+  color: #333333;
+  margin: 28px 0px 8px;
+}
+.description-details {
+  /* border: 1px solid brown; */
+  /* width: 830px; */
+  height: 86px;
+  margin: auto;
+  margin: 16px 0px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #666666;
+  display: block;
+  margin-block-end: 1em;
+  margin-inline-start: 1em;
+  line-height: 1.4;
+}
+#im-anchor {
+  color: #4e4e4e;
+}
+#im-anchor:hover {
+  text-decoration: none;
+}
+.hr-line {
+  border: 1px solid #f1f1f1;
+  height: 2px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.customer-services-div {
+  /* border: 2px solid red; */
+  width: 1065px;
+  height: 300px;
+  margin: auto;
+  margin: 0px 215px;
+  padding: 23px 0px 0px;
+  display: flex;
+  gap: 20px;
+}
+.footer-item-common {
+  width: 285px;
+  /* height: 298px; */
+  /* border: 1px solid green; */
+}
+.email-offer-message-div {
+  font-size: 14px;
+  margin: 23px 0px 20px;
+  color: #333333;
+  font-family: TradeGothicLTW05-BoldNo\.2, Arial, sans-serif;
+}
+.enter-email-section {
+  width: 285px;
+  height: 70px;
+  /* border: 1px solid; */
+  box-sizing: border-box;
+  /* display: flex; */
+  color: #333333;
+  font-size: 14px;
+  font-family: TradeGothicLTW05-BoldNo\.2, Arial, sans-serif;
+  margin-top: 25px;
+  /* border: 1px rgb(203, 203, 203) solid; */
+  
+}
+#footer-email-input {
+  width: 180px;
+  height: 30px;
+  padding: 5px 8px;
+  margin: 0px 0px 15px;
+  color: #333333;
+  border: 1px rgb(203, 203, 203) solid;
+  border-style: dotted;
+}
+.I-icon-div {
+  /* font-size: 35px; */
+  display: flex;
+  gap: 5px;
+}
+.icon-div-again {
+  /* border: 1px solid orange; */
+  width: 30px;
+  height: 30px;
+  margin-top: 8px;
+  text-align: center;
+}
+.i-icon {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: #3a3a3a;
+  -webkit-text-fill-color: #d6d6d6;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: #2f2f2f;
+}
+
+.i-icon:hover {
+  background-color: #eeeeee;
+  -webkit-text-fill-color: #333333;
+  -webkit-text-stroke-width: 0.4px;
+  -webkit-text-stroke-color: #2f2f2f;
+  transition: 0.4s ease-in-out;
+}
+.confirm-email-section {
+  width: 285px;
+  height: 70px;
+  /* border: 1px solid; */
+  box-sizing: border-box;
+  /* display: flex; */
+  color: #333333;
+  font-size: 14px;
+  font-family: TradeGothicLTW05-BoldNo\.2, Arial, sans-serif;
+  margin-top: 25px;
+  margin-bottom: 2.5em;
+}
+#footer-confirm-mail-input {
+  width: 180px;
+  height: 30px;
+  padding: 5px 8px;
+  margin: 0px 0px 15px;
+  border: 1px rgb(203, 203, 203) solid;
+  border-style: dotted;
+}
+.confirm-mail-div {
+  display: flex;
+  /* justify-content: center;
+    align-items: center; */
+}
+.footer-submit-div {
+  /* border: 1px solid orangered; */
+  width: 79px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px;
+}
+.footer-submit-button {
+  padding: 13px 12px;
+  background-color: #333333;
+  border: none;
+  color: white;
+}
+.footer-submit-button:hover {
+  background-color: #e7e7e7;
+  color: #333333;
+  transition: 0.4s ease-in-out;
+}
+.div-enclosing-ptag {
+  width: 280px;
+  height: 30px;
+  /* border: 1px solid red; */
+}
+.get-connected-div {
+  /* border: 1px solid blue; */
+  width: 270px;
+  height: 75px;
+}
+.get-connected-ptag {
+  font-size: 14px;
+  color: #333333;
+  font-family: TradeGothicLTW05-BoldNo\.2, Arial, sans-serif;
+  font-weight: bolder;
+  letter-spacing: 0.035em;
+}
+.footer-social-media-handle {
+  width: 260px;
+  height: 30px;
+  /* border: 1px solid ; */
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.footer-social-media-handle > div {
+  /* border: 1px solid brown; */
+  width: 27px;
+  height: 27px;
+}
+.social-media-iconsF {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: rgb(48, 48, 169);
+}
+.social-media-iconsT {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: rgb(18, 169, 230);
+}
+.social-media-iconsi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: #35648b;
+}
+.social-media-iconst {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: #000000;
+}
+.social-media-iconsy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: #ee3138;
+}
+.social-media-iconsp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: #ce2129;
+}
+.customer-care-div,
+.myaccount-div,
+.discover-div,
+.find_us-div {
+  margin: 0px 0px 0px 20px;
+  padding: 0px 5px;
+  cursor: pointer;
+}
+.footer-anchor-tag{
+  text-decoration: none;
+}
+.footer-service-title {
+  font-size: 14px;
+  color: #333333;
+  font-weight: 600;
+  font-family: TradeGothicLTW05-BoldNo\.2, Arial, sans-serif;
+  margin: 10px 0px 0px;
+  /* height: 18px; */
+  margin-bottom: 13px;
+}
+.footer-service-title-div {
+  text-align: center;
+  width: 136px;
+  height: 25px;
+  /* border: 1px solid green; */
+}
+.footer-service-ul {
+  margin-left: -15px;
+}
+.footer-service {
+  font-size: 14px;
+  color: #666666;
+  font-family: TradeGothicLTW05-BoldNo\.2, Arial, sans-serif;
+  list-style: none;
+  font-weight: 100;
+  margin: 0px 0px 10px;
+  height: 25px;
+  /* margin-bottom: 15px; */
+}
+#footer-image-div {
+  /* border: 1px solid brown; */
+  width: 420px;
+  height: 90px;
+  padding: 15px 0px;
+  float: right;
+  margin-right: 14em;
+}
+.footer-image-money-back {
+  width: 100%;
+  height: 100%;
+}
+#hello {
+  margin-bottom: 400px;
+}
+
+#footers-end-section {
+  height: 105px;
+  width: 100%;
+  border: 4px solid black;
+  margin: auto;
+  z-index: 19;
+}
+.hey {
+  border: 1px solid orangered;
+  height: 100px;
+  width: 100%;
+}
+
+/* .footer-company-terms{
+    height: 80%;
+    width: 22px;
+    margin: auto;
+    border: 1px solid red;
+
+} */
+/* .footer-copyrights{
+
+} */
+
+/* changing image ***************************** */
+/* 1. https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw202e39b4/images/Spring2022/12953w_sp3_hm_lto.gif?yocs=s_ */
+
+/* <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw5e7830a6/crop/025144398_crop.jpg?sw=500&amp;sh=600&amp;sm=fit&amp;q=75&amp;yocs=o_s_" alt="Limited Edition Spring Gift Bundle"> */
