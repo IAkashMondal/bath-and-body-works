@@ -285,3 +285,12 @@ document.querySelector(".social-media-iconsp").addEventListener("click", toPinte
                 <li class="fragrance-dropdown">HOME FRAGRANCE</li>
                 <li class="gifts-dropdown">GIFTS</li>
                 <li class="topoffer-dropdown">TOP OFFERS</li> */}
+
+
+
+
+
+
+
+              
+                
