@@ -1,3 +1,6 @@
+
+
+
 let CollaseSign = document.getElementById("CollaseSign");
 
 let SignContainerBoxJavascript = document.getElementById("SignContainerBoxJavascript");

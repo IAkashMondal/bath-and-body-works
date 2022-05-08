@@ -55,7 +55,7 @@ right: 40px;
     height: 327%;
 
     width:100%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin-top: 98px;
     display: flex;
 grid-template-columns: repeat(2,1fr);
@@ -68,11 +68,11 @@ justify-content: space-evenly;
     /* border: 1px solid orangered; */
 
 }
-.shukla_mainBox_right{
+/* .shukla_mainBox_right{
 height: 200px;
 width: 100px;
 border: 1px solid orangered;
-}
+} */
 #s1{
     height: 50px;
     width: 350px;
@@ -165,16 +165,22 @@ width: 100%;
 }
 #sel{
     height: 24px;
+}#go_to_btn{
+    margin: auto;
+    background-color: black;
+    border: none;
+    color: #ddd;
+    padding: 10px;
 }
 
 
     </style>
     
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     
 </head>
 <body>
-
+<div id="navbar"></div>
 
 <div class="checkout-progress-indicater" role="list">
 <div class="step-1" role="listitem">
@@ -306,14 +312,14 @@ width: 100%;
                        <h3>SHIPPING METHOD</h3>
                        
                         <input type="radio" name="Shippingmethod">
-                        <label for="">standard(3-7-business days.)</label><br>
-                        <label for="">Estimated delivery Thurs may 12-Wed May 18 </label><br><br>
+                        <label for="">standard(3-7-business days.) <p id="Bold"><b>FREE</b></p> </label><br>
+                        <label for="">Estimated delivery on <b>Saturday.</b> </label><br><br>
                         <input type="radio" name="Shippingmethod">
-                        <label for="">Expedited(2 bussiness days)</label><br>
-                        <label for="">Estimated delivery Tues May 10</label><br><br>
+                        <label for="">Expedited(2 bussiness days) <p id="Bold"><b>FREE</b></p></label><br>
+                        <label for="">Estimated delivery on <b>Wednesday.</b> </label><br><br>
                         <input type="radio" name="Shippingmethod">
-                        <label for="">(1 business days)</label><br>
-                        <label for="">Estimated delivery Mon May 09</label>  
+                        <label for="">(1 business days)<p id="Bold"><b>FREE</b></p></label><br>
+                        <label for="">Estimated delivery on <b>Monday.</b></label>  
                         <br><br>
                          <p>Please complete all form fields before continuing
                         </p>
@@ -330,8 +336,9 @@ width: 100%;
 
 </div>
 </div>
+<div class="footer"></div>
 
 
-<script src="javascript.js"></script>
+<script src="javascript.js" type="module"></script>
 </body>
 </html>
