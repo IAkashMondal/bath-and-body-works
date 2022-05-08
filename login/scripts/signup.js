@@ -1,13 +1,13 @@
 
 //navbar
 
-import {container} from "/bathandbodyworks/homepage/components/navbar.js";
+import {container} from "../../homepage/components/navbar.js";
 let box = document.querySelector("#srinivas-container");
 box.innerHTML = container();
 
 
 //footer
-import  {down} from "/bathandbodyworks/footer res/script/myfooter.js";
+import  {down} from "../../footer res/script/myfooter.js";
 let contain = document.querySelector(".footer");
 contain.innerHTML = down();
 
