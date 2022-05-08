@@ -1,0 +1,341 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .checkout-progress-indicater{
+ overflow:visible ;
+ overflow-x: visible;
+ overflow-y: visible;
+ height: 62px;
+ font-size: .875rem;
+ position: relative;
+ margin: 24px auto;
+ margin-top: 24px;
+ margin-right: auto;
+ margin-bottom: 24px;
+ margin-left: auto;
+ width: 730px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 150px
+    ;
+}
+ span {
+    display: block;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    line-height: 26px;
+    /* margin: 15px auto 0; */
+    background: #f2f2f2;
+    border-radius: 15px;
+    border: 2px solid #f2f2f2;
+    position: relative;
+    z-index: 10;
+}
+#line{
+    width: 166px;
+    margin-left: 30px;
+   position: relative;
+   bottom: 20px;
+}
+        #billing_main_address{
+            /* height: 100%;
+            width: 100%;
+            display: flex;
+          font-family: "Trade Gothic W01 Light", Arial, sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          size: 24px;
+          line-height: 24px;
+          color: #333333; */
+
+            
+
+
+        }
+        #addres_page{
+            height: 250px;
+            justify-content: space-between;
+            margin-top: 50px;
+            margin-left: 150px;
+
+}
+
+        #second_page_billing{
+            height: 200px;
+            width: 200px;
+            border: 1px solid grey;
+            margin-top: 50px;
+            margin-left: 30%;
+        }
+        .promotion_code_page{
+            height: 50px;
+            width: 451px;
+           
+        }
+        .gift{
+            height: 50px;
+        }
+        .payment_method{
+            height: 50px;
+            width: 460px;
+        }
+        #cart_image{
+            position: relative;
+            top: 8px;
+            height: 27px;
+        }
+        #paypal_image{
+            position: relative;
+            top: 9px;
+            height: 29px;
+        }
+        .address_bill{
+            height: 240px;
+            width: 300px;
+            border: 1px solid grey;
+        }
+        .code_apply{
+            position: relative;
+        }
+        .review{
+             height: 35px;
+             width: 130px;
+        }
+        .review:hover{
+         background-color: black;
+         color: white;
+        }
+        #credit_pra{
+            height: 50px;
+            width: 490px;
+           
+        }
+        .size_email{
+            width: 450px;
+            height:35px;
+        }
+        #month_of_expiration{
+            height: 40px;
+            width: 130px;
+        }
+        #month_of_expiration:hover{
+            background-color: #E6E6E6;
+        }
+        #year_of_expiration{
+            height: 35px;
+            width: 110px;
+
+        }
+        #year_of_expiration:hover{
+            background-color: #E6E6E6;
+            
+        }
+        
+        #security_of{
+            height: 35px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body onload="colorchange()">
+    <div class="checkout-progress-indicater" role="list">
+        <div class="step-1" role="listitem">
+            <p >Shipping</p>
+            <span id="step11"> 1 <hr id="line" class="line11"></span>
+        
+        </div>
+        
+        <!-- End Step 1 -->
+        
+        <div class="step-2 inactive" role="listitem">
+            <p >Billing</p>
+            <span id="step22">2 <hr id="line"></span>
+          
+        </div>
+        
+        <!-- End Step 2 -->
+        <div class="step-3 inactive" role="listitem">
+            <p id="shukla">Review & Submit Order</p>
+            <span>3</span>
+          
+        </div>
+        
+        <!-- End Step 3 -->
+        </div>
+
+
+
+
+
+
+
+
+
+
+    <div id="billing_main_address">
+
+<div id="addres_page">
+
+
+    <label for="">BILLING ADDRESS</label><br><br>
+    <div  class="address_bill">
+       
+
+
+        <a href="pay.html">Edit</a>
+
+
+    </div>
+
+    <label for="">CONTACT INFORMATION</label><br><br>
+    <label for="email">*Email</label><br>
+    <input class="size_email" type="email">
+    
+    
+<div class="promotionContainer">
+    <div class="promocode">
+        <label for="label">Promotion Code </label>
+        <i class="fa-solid fa-angle-down" id="promotioncodechange"></i>
+    </div>    
+    <br>
+    <div class="promocodedisplay">
+        <p>Promotion Code</p>
+        <div class="promotioncodeApply">
+            <input type="text">
+            <button  class="code_apply">APPLY</button>
+        </div>
+        <p>Only one promotion code can be applied per order. You can submit a different code by entering it in the field above and clicking apply</p>
+    </div>
+</div>
+    
+
+   
+<div class="giftcard">
+
+    <div class="promocode">
+        <label for="card">
+            Gift Card Number
+        </label>
+        <i class="fa-solid fa-angle-down" id="GiftCardchange"></i>
+    </div>
+
+    <div class="giftCardDisplay">
+            <p>Gift Card Number</p>
+            <input type="text" class="giftcardinput">
+            
+            <p for="pin"> PIN</p>
+            <input type="text" class="pinclass">
+            <div class="giftcardButtonAndcheckcard">
+                <button>APPLY</button>
+                or
+                <p class="checkgift">Check Gift Card Balance</p>
+            </div>
+    </div>
+</div>
+    
+  
+     <div class="payment_method">
+         <label for="">PAYMENT METHOD
+        </label><br>
+        <div id="credit_pra">
+         <input type="radio" name="paymentmethod" id="creditcardradioButton">
+         <label >Credit Card
+         </label>
+         <img id="cart_image" src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw540fb29c/images/cc-strap-updated-4-4.png?yocs=o_s_" alt="">
+         <input type="radio" name="paymentmethod" id="paypalradioButton"><label for="">PayPal</label>
+         <img id="paypal_image" src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites/default/dw6143880f/images/payments/payment-ppal.svg?yocs=o_s_" alt=""></div>
+         <br><br>
+        
+         <!--credit card display-->
+         <div class="creditcard">
+             
+        
+         <label for="">Name on Card</label><br>
+         <input class="size_email" type="text">
+         <br><br>
+         <label for="">*Number</label> 
+         <br>
+         <input class="size_email" type="text"> <br><br>
+         <label for="">*Expiration Date</label>
+                 <br>
+                 <select name="mont" id="month_of_expiration">
+                     <option value="">Month</option>
+                     <option value="">january</option>
+                     <option value="">February</option>
+                     <option value="">March</option>
+                     <option value="">April</option>
+                     <option value="">May</option>
+                     <option value="">June</option>
+                     <option value="">july</option>
+                     <option value="">August</option>
+                     <option value="">September</option>
+                     <option value="">October</option>
+                     <option value="">November</option>
+                     <option value="">December</option>
+                 </select>
+               
+                 <select name="year" id="year_of_expiration">
+                     <option value="">Year</option>
+                     <option value="">21</option>
+                     <option value="">22</option>
+                     <option value="">23</option>
+                     <option value="">24</option>
+                     <option value="">25</option>
+                     <option value="">26</option>
+                     <option value="">27</option>
+                     <option value="">28</option>
+                     <option value="">29</option>
+                     <option value="">30</option>
+                     <option value="">31</option>
+                     <option value="">32</option>
+                     <option value="">33</option>
+                     <option value="">34</option>
+                     <option value="">35</option>
+                     <option value="">36</option>
+                 </select>
+                 <br><br>
+                 <label for="">*Security Code</label>
+                 <br>
+                 <input id="security_of" type="text">
+                    <br><br><br>
+                       
+                    <p>Please complete all form fields before continuing
+                    </p>
+
+                    <button class="review">REVIEW ORDER</button>
+                    <a class="privacy_prayuman" href="Privacy.html"> Privacy Policy.</a>
+
+         </div>                        <!--credit card display-->
+
+         <div class="PaypalCardDisplay">
+             <p class="paypalText">PAYPAL</p>
+             <p>
+                Selecting this option will take you to the PayPal site. You will have 25 minutes to complete your payment. Items returned from PayPal orders will receive an exchange or a merchandise credit.
+             </p> 
+             <button>
+                 <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw46359aa0/images/paypal_btn.png?yocs=o_s_">
+             </button>
+         </div>
+         
+        </div>
+
+
+
+
+
+
+<!-- <div id="second_page_billing"> </div> -->
+</div>
+
+<script src="Biling.js"></script>
+<script src="javascript.js"></script>
+</body>
+</html>

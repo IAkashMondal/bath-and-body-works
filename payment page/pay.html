@@ -1,0 +1,337 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+.checkout-progress-indicater{
+ overflow:visible ;
+ overflow-x: visible;
+ overflow-y: visible;
+ height: 62px;
+ font-size: .875rem;
+ position: relative;
+ margin: 24px auto;
+ margin-top: 24px;
+ margin-right: auto;
+ margin-bottom: 24px;
+ margin-left: auto;
+ width: 730px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 150px
+    ;
+}
+ span {
+    display: block;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    line-height: 26px;
+    /* margin: 15px auto 0; */
+    background: #f2f2f2;
+    border-radius: 15px;
+    border: 2px solid #f2f2f2;
+    position: relative;
+    z-index: 10;
+}
+#line{
+    width: 166px;
+    margin-left: 30px;
+   position: relative;
+   bottom: 20px;
+}
+#shukla{
+    position: relative;
+right: 40px;
+}
+#shukla_main_box{
+    height: 327%;
+
+    width:100%;
+    border: 1px solid blue;
+    margin-top: 98px;
+    display: flex;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: auto;
+justify-content: space-evenly;
+}
+.sshukla_mainBox_left{
+    height: 361px;
+    width: 394px;
+    /* border: 1px solid orangered; */
+
+}
+.shukla_mainBox_right{
+height: 200px;
+width: 100px;
+border: 1px solid orangered;
+}
+#s1{
+    height: 50px;
+    width: 350px;
+    border: 1px solid black;
+  
+}
+
+#s2{
+     height: 60%;
+     width: 350px;
+     margin-top: 350px;
+}
+#s2>#div{
+height: 30px;
+width: 100%;
+
+}
+
+
+
+
+/********************************************************/
+.signfaster{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 20px;
+    border-top: 1px solid #ccc;
+}
+.signContainerBox{
+ 
+}
+.signfasterEmailPassword{
+    font-size: 20px;
+    padding:10px 0px;
+    margin:5px 0px;
+}
+.inputbox{
+    border:1px solid #000;
+    height: 28px;
+    margin:7px 0px;
+    display: flex;
+}
+.inputbox input{
+    outline:none;
+    border:none;
+    height: 28px;
+    width: 100%;
+    
+}
+#showpassword{
+    width: 75px;
+    height: 28px;
+    background-color: white;
+    border:none;
+}
+#showpassword:hover{
+    background-color: #cff;
+}
+.ForgotpasswordTExt a{
+    color:#000;
+}
+.ForgotpasswordTExt{
+    margin:15px 0px 10px 
+}
+.signButtonAndPolicy{
+    margin: 15px 0px;
+}
+.signButton{
+    width: 120px;
+    height: 30px;
+    background-color: #000;
+    color:white;
+}
+.privarytext{
+    padding:0px 10px;
+    color:#000;
+}
+#SignContainerBoxJavascript{
+    padding-bottom: 20px;
+}
+
+#sectionsign2{
+  position: relative;
+  top:-350px;
+}
+#div1{
+    width: 100px;
+    height: 25px;
+}
+#sel{
+    height: 24px;
+}
+
+
+    </style>
+    
+
+    
+</head>
+<body>
+
+
+<div class="checkout-progress-indicater" role="list">
+<div class="step-1" role="listitem">
+    <p >Shipping</p>
+    <span id="step1"> 1 <hr id="line" class="line1"></span>
+
+</div>
+
+<!-- End Step 1 -->
+
+<div class="step-2 inactive" role="listitem">
+    <p >Billing</p>
+    <span id="step2">2 <hr id="line"></span>
+  
+</div>
+
+<!-- End Step 2 -->
+<div class="step-3 inactive" role="listitem">
+    <p id="shukla">Review & Submit Order</p>
+    <span>3</span>
+  
+</div>
+
+<!-- End Step 3 -->
+</div>
+
+<!-- ENd ***************** -->
+
+<!-- Start  div part -->
+
+
+<div id="shukla_main_box" >
+<div class="shukla_mainBox_left">
+
+        <div class="shukla_first_box">
+           <div class="signContainerBox">
+
+                <div class="signfaster">
+                    <p>SIGN IN FOR FASTER CHECKOUT</p>
+                    <div class="icondisplay">
+                      <i class="fa-solid fa-angle-down" id="CollaseSign"></i>
+                    </div>
+                </div>
+
+            <div id="SignContainerBoxJavascript">
+                <div class="signfasterEmailPassword">
+                    <label>Email Address</label>
+                    <div class="inputbox">
+                        <input type="email">
+                     </div>
+                </div>
+
+                <div class="signfasterEmailPassword">
+                    <label>Password</label>
+                    <div class="inputbox">
+                        <input type="password" id="passwordoutput">
+                        <button id="showpassword">SHOW</button>
+                    </div>
+                </div>
+            <!-- <h6>Please enter your Password</h6> -->
+                <div class="ForgotpasswordTExt">
+                    <a href="forgot.html">Forgot Password?</a>
+                </div>
+            
+                <div class="signButtonAndPolicy">
+                    <button class="signButton">SIGN IN</button>
+                    <a href="Privacy.html" class="privarytext">Privacy Policy</a>
+                </div>
+                <p class="donthaveanaccount">DON'T HAVE AN ACCOUNT?</p>
+                <P class="checkoutlast">You can easily create one after checkout.</P>
+
+            </div>
+        </div>
+
+
+    <div id="sectionsign2">
+                <div id="s2">
+                        <p>SHIPPING ADDRESS</p>
+                        <p>*First Name</p>
+                       <input id="div" type="text" class="requiredfilled" id="takeFistname">
+                        <p>*Last Name</p>
+                        <input id="div" type="text" class="requiredfilled" id="takeLastName">
+                        <p>*Address 1</p>  
+                       <input id="div" type="text" class="requiredfilled" id="takeaddress1">
+                        <p>Address 2</p>
+                       <input id="div" type="text">
+                        <p>*Country</p>
+                        <select name="Country" id="sel" class="requiredfilled" >
+                              
+                              <option value="volvo" id="takeCountery">United State</option>
+                              <option value="saab">Canada</option>
+                        </select>
+                        
+                       <p>*City</p>
+                       <input id="div" type="text" class="requiredfilled" id="takecityname">
+                       <p>State</p>
+                       <select name="State" id="sel">
+                        <option value="select">Select...</option>
+                         <option value="Alabama">Alabama</option>
+                         <option value="Alaska">Alaska</option>
+                         <option value="california">california</option>
+                         <option value="Colarada">Colarada</option>
+                         <option value="Connecticut">Connecticut</option>
+                         <option value="Delaware">Delaware</option>
+                         <option value="Columbia">Distric of Columbia</option>
+                         <option value="Florida">Florida</option>
+                         <option value="Georgia">Georgia</option>
+                         <option value="Hawaii">Hawaii</option>
+                         <option value="Idaho">Idaho</option>
+                         <option value="Illinois">Illinois</option>
+                         <option value="Indiana">Indiana</option>
+                         <option value="lowa">Lowa</option>
+                   </select>
+                        <p>*ZIP Code</p>
+                        <input id="div" type="text" class="requiredfilled">
+                        <p>*Phone</p>
+                        <input id="div" type="text" class="requiredfilled">
+                        
+                    <input type="checkbox">
+                        <label>Use Address for Billing
+                        </label><br>
+                        <label>Are you shipping a gift?</label>
+                        <br>
+                       <input type="radio">
+                       <label for="Yes">Yes</label>
+                       <input type="radio">
+                       <label for="No">No</label>
+
+                       <h3>SHIPPING METHOD</h3>
+                       
+                        <input type="radio" name="Shippingmethod">
+                        <label for="">standard(3-7-business days.)</label><br>
+                        <label for="">Estimated delivery Thurs may 12-Wed May 18 </label><br><br>
+                        <input type="radio" name="Shippingmethod">
+                        <label for="">Expedited(2 bussiness days)</label><br>
+                        <label for="">Estimated delivery Tues May 10</label><br><br>
+                        <input type="radio" name="Shippingmethod">
+                        <label for="">(1 business days)</label><br>
+                        <label for="">Estimated delivery Mon May 09</label>  
+                        <br><br>
+                         <p>Please complete all form fields before continuing
+                        </p>
+                        <button id="go_to_btn" >GO TO BILLING</button>
+                        <br><br>
+                        <a href="Privacy Policy">Privacy Policy</a>
+                </div>
+    </div>
+</div>  <!--left side content-->
+</div> 
+
+<div class="shukla_mainBox_right">
+
+
+</div>
+</div>
+
+
+<script src="javascript.js"></script>
+</body>
+</html>

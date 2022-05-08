@@ -1,0 +1,66 @@
+.border{
+    border:2px solid;
+    font-weight: bold;
+}
+
+.promocode{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    border-top: 1px solid #ccc;
+}
+.promocodedisplay{
+    width: 500px;
+    height: 180px;
+}
+.promotioncodeApply input{
+    width: 390px;
+    height: 35;
+}
+.promotioncodeApply button{
+    width: 105px;
+    border:none;
+    background-color: #000;
+    color:white;
+    height: 35px;
+}
+
+
+.giftcardinput{
+    width: 500px;
+    height: 35px;
+}
+.pinclass{
+    width: 100px;
+    height: 35px;
+}
+.giftcardButtonAndcheckcard{
+    display: flex;
+    margin:20px 0px;
+    display: flex;
+    align-items: center;
+}
+.giftcardButtonAndcheckcard button{
+    width: 100px;
+    height: 35px;
+    background-color:#000;
+    color:white;
+    margin-right: 20px;
+}
+.giftCardDisplay{
+    width: 500px;
+    height: 300px;
+}
+.checkgift{
+    margin-left:20px;
+}
+
+
+
+.PaypalCardDisplay button{
+    border:none;
+    background-color: transparent;
+}
