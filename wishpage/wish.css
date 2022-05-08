@@ -1,13 +1,13 @@
 .NoUnderLine{
     text-decoration: none;
-}#Secondary-Navi-Main  {
+}#Secondary-Navi-Mai  {
     display: grid;
     margin: auto;
     line-height: 20%;
     margin-left: 24%;
     margin-top: -2%;
 }
-#Secondary-Navi-Main >#Secondary-Navigation{
+#Secondary-Navi-Mai >#Secondary-Navigation{
     margin: auto;
     line-height: 420%;
     display: grid;
@@ -83,7 +83,7 @@ width: 80%;
 
 display: grid;
 grid-template-columns: repeat(2,1fr);
-}#adjust9 > .bodywidth{
+}#adjust9 > .bodywidt{
   font-family: Trade Gothic W01 Light,Arial,sans-serif;
   display: flex;
   margin: auto;
