@@ -265,7 +265,7 @@ let DisplayPage = ({img,fname,type,price,description}) =>{
     let Display = [];
     Display.push({img,fname,type,price,description});
     localStorage.setItem("display",JSON.stringify(Display));
-    window.location.href = "display.html"
+    window.location.href = "../../display/display.html"
 }
 
 
