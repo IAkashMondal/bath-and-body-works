@@ -1,5 +1,5 @@
 
-import {container} from "/bath-and-body-works-2/homepage/components/navbar.js";
+import { container } from "/bath-and-body-works-2/homepage/components/navbar.js";
 
 let box = document.querySelector("#srinivas-container");
 box.innerHTML = container();
