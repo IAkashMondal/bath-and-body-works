@@ -245,7 +245,7 @@ BodyCareProducts.forEach(({img,fname,type,price,description}) =>{
 
 
 let CartData = JSON.parse(localStorage.getItem("bag")) || [];
-let Display = JSON.parse(localStorage.getItem("display")) || [];
+// let Display = JSON.parse(localStorage.getItem("display")) || [];
 
 
 let AddToBag = ({img,fname,type,price,description}) =>{
@@ -257,6 +257,7 @@ let AddToBag = ({img,fname,type,price,description}) =>{
 
 
 let DisplayPage = ({img,fname,type,price,description}) =>{
+    let Display = [] ;
     //console.log({img,fname,type,price,description});
     Display.push({img,fname,type,price,description});
     localStorage.setItem("display",JSON.stringify(Display));

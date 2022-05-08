@@ -246,9 +246,9 @@ tr > th {
 
 }
 /* <-----------------------------------------------------------cart------------------------> */
-#Remove-1{
-    border: none;
-    background: none;
+#Remove-th{
+border: none;
+background-color: transparent;
 }.cartwish{
     border: none;
     background: none;
@@ -257,8 +257,22 @@ tr > th {
 }#conitem{
     display: flex;
 }#suggestion_img{
-    width: 30%;
-    height: 10%;
+    margin: auto;
+    margin-top: 20px;
+    width: 144px;
+    height: 200px;
+}#item2{
+    margin: auto;
+    
+    margin-top: 60px;
+}#itemdes{
+    width: 50%;
+    font-size: x-small;
+    color: red;
+    text-align: center;
+}#promoew{
+    text-align: center;
+    color: #008527;
 }
 /* <-----------------------------------------------------------------promotion---------------------------> */
 

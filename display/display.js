@@ -110,14 +110,14 @@ wish.setAttribute("id","wish12")
 
 let imageB=document.createElement("img")
     imageB.src=el.img
-    imageB.style.height="80%"
-    imageB.style.width="80%"
+    imageB.style.height="500px"
+    imageB.style.width="218px"
 
 let imageS=document.createElement("img")
     imageS.setAttribute("id","imageB")
     imageS.src=el.img
-    imageS.style.height="20%"
-    imageS.style.width="20%"
+    imageS.style.height="80px"
+    imageS.style.width="45px"
 
 
 
@@ -135,10 +135,10 @@ let star =document.createElement("div")
 
 
 let des = document.createElement("p")
-    des.innerText=el.description
+    des.innerText=el.description ;
 
 let btnwish = document.createElement("button")
-    btnwish.setAttribute("class","cartwish")
+    btnwish.setAttribute("class","hbs")
     btnwish.innerText="AAD TO BAG"
     btnwish.addEventListener("click",function (){
         addTocart(el)
@@ -164,16 +164,104 @@ function addTocart(el){
     console.log(el)
     cartData.push(el)
     localStorage.setItem("cart",JSON.stringify(cartData))
-    window.location.href="cart.html"
+    window.location.href="../cartpage/cart.html"
 
 }
 
 function addToWISHlist(el){
     let displayproduct=JSON.parse(localStorage.getItem("display"))
-
+alert("ITEM ADDED TO WISHLIST ❤️ ")
     console.log(el)
     wishData.push(el)
     localStorage.setItem("wish",JSON.stringify(wishData))
     window.location.reload()
+
+}
+
+// function addTocart(ele){
+//     var products= JSON.parse(localStorage.getItem("cart")) || []; //cart
+//     console.log(ele)
+//     products.push(ele)
+//     localStorage.setItem("cart",JSON.stringify(products))
+//     window.location.reload()
+
+// }
+
+
+let MyProducts1 =[]
+
+class Category {
+    constructor(fname,type,price,description,img){
+
+      
+        this.img = img;
+        this.fname = fname;
+        this.type = type;
+        this.price = price;
+        this.description = description;
+    }
+}
+
+class products extends Category{
+
+    constructor(fname,type,price,description,img){
+        super(fname,type,price,description,img);
+    }
+}
+let a1 = new products("Eucalyptus Spearmint","Moisturizing Body Lotion",15.50 ,"Mix & Match: Buy 3, Get 3 Free or Buy 2, Get 1 Free","https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw2e5a3725/crop/026353210_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_")
+
+let a3 = new products("Black Chamomile","Pillow and Body Mist",14.50 ,"Mix & Match: Buy 3, Get 3 Free or Buy 2, Get 1 Free","https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf48f3eef/crop/026353233_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_")
+
+let a5 = new products("Orange Ginger","Gentle & Clean Foaming Hand Soap",7.50 ,"Mix & Match: 6/$27 or 4/$20","https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw2455126b/crop/026410945_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_")
+
+let a7 = new products("Eucalyptus Spearmint","Body Wash and Foam Bath",14.50 ,"Mix & Match: Buy 3, Get 3 Free or Buy 2, Get 1 Free","https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw22111d6f/crop/026353200_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_")
+
+
+MyProducts1.push(a1,a3,a5,a7) ;
+
+MyProducts1.forEach(({img,fname,type,price,description}) =>{
+
+    let box =document.createElement("div");
+    box.setAttribute("class","suggestion_box")
+
+    let imga = document.createElement("img")
+    imga.setAttribute("class","suggestion_img")
+        imga.src=img;
+  
+    let alltext = document.createElement("div")
+    alltext.setAttribute("class","suggestion_alltext")
+        
+    let title = document.createElement("h4")
+    title.setAttribute("class","suggestion_title")
+        title.innerText= fname ;
+        
+    let descr= document.createElement("p")
+    descr.setAttribute("class","suggestion_description")
+        descr.innerText= type ;
+    
+    let pri= document.createElement("p")
+        pri.setAttribute("class","suggestion_price")
+        pri.innerText= price ;
+    
+    let offer= document.createElement("p")
+    offer.setAttribute("class","suggestion_offer")
+         offer.innerText= description ;
+    
+    let btn2 = document.createElement("button")
+    btn2.setAttribute("class","QUICKLOOK","trans")
+        btn2.innerText="QUICKLOOK"
+        btn2.addEventListener("click",function (){
+            QUICKLOOK({img,fname,type,price,description}) ;
+        });
+      
+    alltext.append(title,description,price,offer) ;
+    box.append(imga,btn2,alltext) ;
+    document.querySelector(".suggestion").append(box) ;
+}) ;
+function QUICKLOOK({img,fname,type,price,description}){
+    let display = [];
+    display.push({img,fname,type,price,description})
+    localStorage.setItem("display",JSON.stringify(display))
+    window.location.href="../display/display.html"
 
 }
