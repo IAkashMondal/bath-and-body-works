@@ -60,10 +60,11 @@ go_billing.addEventListener("click",function(){
     let requredFilled =  document.querySelector(".requiredfilled").value;
     if(requredFilled == ""){
         alert("Fill up the details")
+        window.location.href =""
     }
     else{
-        url = "./billing.html"
-        window.open(url);
+       
+        window.location.href="../payment page/billing.html";
     }
 
 })

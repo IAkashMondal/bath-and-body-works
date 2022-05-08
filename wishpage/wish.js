@@ -46,7 +46,7 @@ console.log(wishData) ;
         items5.setAttribute("id","conitem2")
 
     var img = document.createElement("img");
-        img.src = elem.image;
+        img.src = elem.img;
         img.setAttribute("class","suggestion_img")
     
 
@@ -63,13 +63,8 @@ console.log(wishData) ;
   var newdiv = document.createElement("td");
     let seodiv = document.createElement("div");
     let price = document.createElement("h4");
-    price.innerText = elem.price1;
+    price.innerText = "$" + elem.price;
     price.setAttribute("id","net") ;
-    // let offer = document.createElement("p");
-    //     offer.innerText =elem.offer ;
-    //     offer.setAttribute("id","offer")
-    // let p  = document.createElement("p");
-    //     p.innerText ="IN STOCK"
 
    
       let divend = document.createElement("td");     

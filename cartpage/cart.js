@@ -176,7 +176,7 @@ MyProducts1.forEach(({img,fname,type,price,description}) =>{
     btn2.setAttribute("class","QUICKLOOK","trans")
         btn2.innerText="QUICKLOOK"
         btn2.addEventListener("click",function (){
-            QUICKLOOK(ele) ;
+            QUICKLOOK({img,fname,type,price,description}) ;
         });
       
     alltext.append(title,description,price,offer) ;
@@ -218,7 +218,7 @@ MyProducts2.forEach(({img,fname,type,price,description}) =>{
     btn2.setAttribute("class","QUICKLOOK","trans")
         btn2.innerText="QUICKLOOK"
         btn2.addEventListener("click",function (){
-            QUICKLOOK(ele) ;
+            QUICKLOOK({img,fname,type,price,description}) ;
         });
       
     alltext.append(title,description,price,offer) ;
@@ -238,18 +238,19 @@ cartData.map(function (elem, index) {
     
     let img = document.createElement("img");
     img.setAttribute("id","suggestion_img")
-        img.src = elem.image;
+        img.src = elem.img;
         img.style.marginRight="10%"
     
     let items2 = document.createElement("div")
         items2.setAttribute("id","item2")
+        
     
     let name = document.createElement("p");
     name.setAttribute("id","itemname")
-        name.textContent = elem.titel ;
+        name.textContent = elem.fname ;
 
     let des = document.createElement("p");
-    des.setAttribute("id","itemname")
+    des.setAttribute("id","itemdes")
         des.textContent = elem.description ;
 
     let offer = document.createElement("p");
@@ -268,9 +269,9 @@ cartData.map(function (elem, index) {
             addToWishlist(elem)
         });
     
-    let price = document.createElement("td");
-    price.setAttribute("id","net") ;
-        price.innerText = elem.price1;  
+    let pri = document.createElement("td");
+    pri.setAttribute("id","net") ;
+        pri.innerText = "$"+ elem.price;  
     
     
     let qty = document.createElement("td");
@@ -301,7 +302,7 @@ cartData.map(function (elem, index) {
        });
     
     let available = document.createElement("p");
-    available.setAttribute("id","promo")
+    available.setAttribute("id","promoew")
         available.textContent = "Available";
         
     let grosstotal = document.createElement("td");
@@ -309,10 +310,10 @@ cartData.map(function (elem, index) {
     let devsec= document.createElement("dic");
     devsec.setAttribute("id","devsec")
         grosstotal.setAttribute("id","gross") ;
-        grosstotal.innerText= "$"+ elem.price2;
+        grosstotal.innerText= "$"+ elem.price;
 
     let rbtn = document.createElement("button");
-    rbtn.setAttribute("id","Remove-1")
+    rbtn.setAttribute("id","Remove-th")
         rbtn.innerText = "X";
         rbtn.addEventListener("click", function () {
             removeItem(elem, index);
@@ -326,7 +327,7 @@ cartData.map(function (elem, index) {
     items2.append(name,des,offer,promo,btnwish)
     items1.append(img,items2)
     devsec.append(grosstotal,rbtn)
-    box.append(items1,price,qty,devsec );
+    box.append(items1,pri,qty,devsec );
     document.querySelector("#Cartbody").append(box);
 });
 
@@ -364,7 +365,7 @@ function QUICKLOOK(ele){
     let display = [];
     display.push(ele)
     localStorage.setItem("display",JSON.stringify(display))
-    window.location.href="display.html"
+    window.location.href="../display/display.html"
 
 }
 
@@ -458,7 +459,7 @@ document.getElementById("discount_coupon").addEventListener("click",Discoun);
 
 let checkout1 = async (e) => {
    
-    window.location.href="payment.html"
+    window.location.href="../payment page/pay.html"
 
     
 };
@@ -468,7 +469,7 @@ document.getElementById("checkoutbag1").addEventListener("click", checkout1);
 
 let checkout2 = async (e) => {
    
-    window.location.href="payment.html"
+    window.location.href="../payment page/pay.html"
 
     
 };
@@ -492,7 +493,7 @@ document.getElementById("Updatebag").addEventListener("click", reload1);
 //   <---------------------------------Calculation Start HERE------------------------------------------------------>
 
  var total = cartData.reduce(function (sum, elem, index, arr) {
-   return sum + Number(elem.price2);
+   return sum + Number(elem.price);
  }, 0);
 
  var length = cartData.length; 
