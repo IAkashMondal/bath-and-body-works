@@ -1,0 +1,122 @@
+.NoUnderLine{
+    text-decoration: none;
+}#Secondary-Navi-Main  {
+    display: grid;
+    margin: auto;
+    line-height: 20%;
+    margin-left: 24%;
+    margin-top: -2%;
+}
+#Secondary-Navi-Main >#Secondary-Navigation{
+    margin: auto;
+    line-height: 420%;
+    display: grid;
+    font-family: Trade Gothic W01 Light,Arial,sans-serif;
+    font-weight: 100;
+  font-size: small;
+
+}#Logo{
+    width: 100%;
+}#primary-secondary > .Love-List{
+  font-family: Trade Gothic W01 Light,Arial,sans-serif;
+  font-weight: 600;
+}
+
+
+
+
+table,
+td,
+th {
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+}th{
+    border: none;
+
+}td{
+    border: none;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+tr > th {
+  color: black;
+}
+
+
+ .suggestion_box{
+  width: 100%;
+  height: auto;
+  padding: 10%;
+  overflow-x: hidden;
+  margin: auto;
+}.suggestion_box > .suggestion_img{
+  margin: auto;
+  display: block;
+  width: 100%; 
+  height: 100%;
+  margin-bottom: 10%;
+}#wishvisi{
+  margin: auto;
+  padding: 0%;
+  box-sizing: border-box;
+}#conitem{
+  display: flex;
+}
+.suggestion_img{
+  width: 40%;
+  height: 40%;
+} 
+
+#adjust9{
+margin: auto;
+width: 80%;
+
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}#adjust9 > .bodywidth{
+  font-family: Trade Gothic W01 Light,Arial,sans-serif;
+  display: flex;
+  margin: auto;
+text-align: center;
+gap:10px;
+font-weight: 100;
+}a{
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}.subheader{
+  font-family: Trade Gothic W01 Bold_2,Arial,sans-serif;
+  font-weight: 500;
+}#mk-18{
+  font-family: Trade Gothic W01 Light,Arial,sans-serif;
+  display: flex;
+  margin: auto;
+text-align: center;
+gap:10px;
+font-weight: 100;
+margin-top: 10%;
+}#Remove-1{
+  border: none;
+  background: none;
+  display: grid;
+}
+.cartwish{
+  display: flex;
+  border: none;
+  color: rgb(181, 180, 180);
+  background-color: black;
+  padding: 10px;
+
+}
