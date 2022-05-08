@@ -1,11 +1,11 @@
 //navbar
 
-import {container} from "/bathandbodyworks/homepage/components/navbar.js";
+import {container} from "../../../bath-and-body-works-2/homepage/components/navbar.js";
 let box = document.querySelector("#srinivas-container");
 box.innerHTML = container();
 
 //footer
-import  {down} from "/bathandbodyworks/footer res/script/myfooter.js";
+import  {down} from "../../footer res/script/myfooter.js";
 let contain = document.querySelector(".footer");
 contain.innerHTML = down();
 
@@ -128,7 +128,7 @@ document.querySelector("form").addEventListener("submit", loginFun)
 let btn = document.querySelector(".btn").addEventListener("click", creatFun)
 
 function creatFun() {
-    window.location.href="create.html"
+    window.location.href="./create.html"
 }
 
 function loginFun() {
