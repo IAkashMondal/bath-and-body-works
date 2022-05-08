@@ -1,0 +1,74 @@
+#container_candle{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    font-family: Trade Gothic W01 Light, Arial, sans-serif;
+  
+}
+
+/* image section */
+.candle_div{
+    text-align: center;
+    line-height: 5px;
+    margin-bottom: 50px;
+   
+}
+
+.candle_div>div{
+    width:70%;
+    height:250px;
+    margin:auto;
+    padding:25px;
+    box-sizing: border-box;
+    
+}
+.candle_div>div:hover{
+    border:2px dotted grey;
+}
+.candle_div>div>img{
+    width:150px;
+    height:200px;
+    display: block;
+    margin:auto;
+}   
+#candle_button{
+    background-color: #272525;
+    color:white;
+    border:none;
+    transition: all 0.5s;
+    margin-top:5px;
+}
+#candle_button:hover{
+    background-color: white;
+    color:black;
+}
+#candle_button:focus{
+    background-color: blue;
+}
+
+.spaan{
+    display:none
+}
+.candle_div>div:hover .spaan{
+    display:block;
+    color:#3d3db9;
+    text-decoration: underline;
+
+}
+.spaan1{
+    display:block;
+    margin-top:15px;
+   
+}
+.checked{
+    color:orange;
+}
+
+
+
+
+
+
+
+
+
