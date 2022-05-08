@@ -1,11 +1,11 @@
 //navbar
 
-import {container} from "/bathandbodyworks/homepage/components/navbar.js";
+import {container} from "/bath-and-body-works-2/homepage/components/navbar.js";
 let box = document.querySelector("#srinivas-container");
 box.innerHTML = container();
 
 //footer
-import  {down} from "/bathandbodyworks/footer res/script/myfooter.js";
+import  {down} from "/bath-and-body-works-2/footer res/script/myfooter.js";
 let contain = document.querySelector(".footer");
 contain.innerHTML = down();
 
@@ -236,7 +236,7 @@ willflower.forEach(({img,fname,type,price,description}) =>{
 
 
 let CartData = JSON.parse(localStorage.getItem("bag")) || [];
-let Display = JSON.parse(localStorage.getItem("display")) || [];
+// let Display = JSON.parse(localStorage.getItem("display")) || [];
 
 
 let AddToBag = ({img,fname,type,price,description}) =>{
@@ -249,6 +249,7 @@ let AddToBag = ({img,fname,type,price,description}) =>{
 
 let DisplayPage = ({img,fname,type,price,description}) =>{
     //console.log({img,fname,type,price,description});
+    let Display = [];
     Display.push({img,fname,type,price,description});
     localStorage.setItem("display",JSON.stringify(Display));
     window.location.href = "display.html"

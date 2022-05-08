@@ -1,4 +1,4 @@
-import  {down} from "/bathandbodyworks/footer res/script/myfooter.js";
+import  {down} from "/bath-and-body-works-2/footer res/script/myfooter.js";
 let contain = document.querySelector(".footer");
 contain.innerHTML = down();
 
