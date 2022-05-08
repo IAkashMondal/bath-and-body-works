@@ -41,10 +41,10 @@ const container = () => {
                 />
                 <div class="dropdown-content">
                   <div class="user-info-guide">
-                    <a href="./homepage/index.html">Sign In or Sign Up</a>
+                    <a href="./homepage/home.html">Sign In or Sign Up</a>
                     <a href="#">Order Tracking</a>
                     <a href="#" id="anchor-tag-auto-refresh">My Auto Refresh</a>
-                    <a href="./homepage/index.html">My Love-It List</a>
+                    <a href="./homepage/home.html">My Love-It List</a>
                   </div>
                 </div>
               </div>

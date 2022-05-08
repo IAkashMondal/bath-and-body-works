@@ -153,7 +153,7 @@ function loginFun() {
         }
     }
     if (flag) {
-         window.location.href="../homepage/index.html";
+         window.location.href="../homepage/home.html";
     }
 
     else {
