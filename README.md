@@ -59,7 +59,7 @@ Local Storage.
 
 ![bath product diplay](https://user-images.githubusercontent.com/102036593/167427341-7f71c3e2-0369-40ca-901e-e057c63f4d14.jpg)
 
-# Cart Page By Akash Mondal.
+##### Cart Page By Akash Mondal.
 
 ![bath cart page](https://user-images.githubusercontent.com/102036593/167427688-e4fa5d5e-1c90-4521-b648-5ed8ef080f8c.jpg)
 
@@ -71,11 +71,11 @@ Local Storage.
 
 ![bath cart 5](https://user-images.githubusercontent.com/102036593/167427641-c42b2987-000e-43de-8c04-d03579a70434.jpg)
 
-# Wishlist Page by Akash Mondal.
+##### Wishlist Page by Akash Mondal.
 
 ![bath Wish Page](https://user-images.githubusercontent.com/102036593/167432062-ad3c2b7e-815e-415d-8430-debdcbddf499.jpg)
 
-# Payment Page by Pradhyumn Shukla.
+##### Payment Page by Pradhyumn Shukla.
 
 ![bath payment1](https://user-images.githubusercontent.com/102036593/167431292-f2f9b40a-3462-4223-bccc-66feac2dfb87.jpg)
 
