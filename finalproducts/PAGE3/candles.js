@@ -114,7 +114,7 @@ let AddToBag = ({img,fname,type,price,description}) =>{
     //console.log({img,fname,type,price,description});
     CartData.push({img,fname,type,price,description});
     localStorage.setItem("cart",JSON.stringify(CartData));
-    window.location.reload();
+    window.location.href="../../cartpage/cart.html"
 }
 
 
