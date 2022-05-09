@@ -39,7 +39,7 @@ import-export.
  
 ## Website Flow.
 
-##### Signup and Login Page by Harsh Vyas
+##### • Signup and Login Page by Harsh Vyas
 
 ![bath create an account](https://user-images.githubusercontent.com/102036593/167426073-d7137ec4-f05a-41d1-a99f-42770ebcd711.jpg)
 
@@ -62,7 +62,7 @@ import-export.
 ![bath footer](https://user-images.githubusercontent.com/102036593/167463196-dd042a7a-f20f-451e-a122-29d273e81969.jpg)
 
 
-##### • Products Page by Naresh Rajput.
+##### • Product Category Page by Naresh Rajput.
 
 ![bath aroma](https://user-images.githubusercontent.com/102036593/167463065-9948b4a8-8c4d-4a06-af15-79bb8342c4be.jpg)
 
@@ -78,7 +78,7 @@ import-export.
 ![bath shop page](https://user-images.githubusercontent.com/102036593/167463284-ad2e5387-58c7-43fb-a937-aa095040eb2e.jpg)
 
 
-##### • Products Page Julhan Mohanto.
+##### • Product Category Page Julhan Mohanto.
 
 ![bath gift](https://user-images.githubusercontent.com/102036593/167463148-76f362f7-5558-4c62-85b6-e47ac3dc349f.jpg)
 
@@ -112,7 +112,7 @@ import-export.
 ![bath cart 5](https://user-images.githubusercontent.com/102036593/167427641-c42b2987-000e-43de-8c04-d03579a70434.jpg)
 
 
-##### • Payment Page by Pradhyumn Shukla.
+##### • Adress Page by Pradhyumn Shukla.
 
 ![bath payment1](https://user-images.githubusercontent.com/102036593/167431292-f2f9b40a-3462-4223-bccc-66feac2dfb87.jpg)
 
@@ -121,6 +121,13 @@ import-export.
 ![bath payment3](https://user-images.githubusercontent.com/102036593/167431350-27e4d9a3-7ae0-4636-ac09-b2fbccc0a48c.jpg)
 
 
+##### • Payment Page by Pradhyumn Shukla.
+
+![bath billing 1](https://user-images.githubusercontent.com/102036593/167468862-18202ec3-b20f-4573-9979-1a132bd91809.jpg)
+
+![bath billng2](https://user-images.githubusercontent.com/102036593/167468868-25ad13a9-28cb-43f2-b4c1-117bffff8fe4.jpg)
+
+![Bath bbilling 3](https://user-images.githubusercontent.com/102036593/167468874-37666f2f-375b-47ed-8a08-58a100e538a9.jpg)
 
 ## Team Members 
 
