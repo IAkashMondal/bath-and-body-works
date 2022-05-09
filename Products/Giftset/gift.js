@@ -267,3 +267,4 @@ let cartData = JSON.parse(localStorage.getItem("cart"))||[];
 var total = cartData.reduce(function (sum, elem, index, arr) {    return sum + Number(elem.price2);  }, 0);
   var length = cartData.length;   console.log(length);
 var cartcoutup= document.querySelector("#usercart-items-display").innerText = `${length}`;
+
