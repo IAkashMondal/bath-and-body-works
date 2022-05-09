@@ -37,22 +37,53 @@ Local Storage.
 
 ##### Signup and Login Page by Harsh Vyas
 
+![bath create an account](https://user-images.githubusercontent.com/102036593/167426073-d7137ec4-f05a-41d1-a99f-42770ebcd711.jpg)
 
-// Upload the Image of login and signup page.
-
-
-
+![bath sign up](https://user-images.githubusercontent.com/102036593/167426370-b2f9dd87-4aea-4cbb-9910-ecb2c46daf66.jpg)
 
 ##### HomePage by Srinivas K Bhat.
 
-// Upload the image of home page
+![barth home](https://user-images.githubusercontent.com/102036593/167426448-42b8091e-ef77-402c-9083-598ee8800fa6.jpg)
 
+![bath home2](https://user-images.githubusercontent.com/102036593/167426474-f661ec2b-3caa-417e-b625-8d8fe33b37f3.jpg)
+
+
+![bath home category](https://user-images.githubusercontent.com/102036593/167426548-154a9d5f-d9f8-45e6-b5f2-459a4e0a6ddc.jpg)
+
+![bath footer](https://user-images.githubusercontent.com/102036593/167426568-1816d227-087d-4cd2-a9a5-16380afe5d2c.jpg)
 
 
 ##### Products Page by 
 
+# Product Display page by Akash Mondal.
 
-Please upload their names and their sections 
+![bath product diplay](https://user-images.githubusercontent.com/102036593/167427341-7f71c3e2-0369-40ca-901e-e057c63f4d14.jpg)
+
+# Cart Page By Akash Mondal.
+
+![bath cart page](https://user-images.githubusercontent.com/102036593/167427688-e4fa5d5e-1c90-4521-b648-5ed8ef080f8c.jpg)
+
+![bath cart 2](https://user-images.githubusercontent.com/102036593/167427546-6d56f995-9b7e-472f-8a33-2fd1ab338944.jpg)
+
+![bath cart 3](https://user-images.githubusercontent.com/102036593/167427607-ff6262b2-9f88-4223-91f2-597d3af23349.jpg)
+
+![bath cart4](https://user-images.githubusercontent.com/102036593/167427625-01208171-0a8a-4ba3-bf9a-dce7246aa07d.jpg)
+
+![bath cart 5](https://user-images.githubusercontent.com/102036593/167427641-c42b2987-000e-43de-8c04-d03579a70434.jpg)
+
+# Wishlist Page by Akash Mondal.
+
+![bath Wish Page](https://user-images.githubusercontent.com/102036593/167432062-ad3c2b7e-815e-415d-8430-debdcbddf499.jpg)
+
+# Payment Page by Pradhyumn Shukla.
+
+![bath payment1](https://user-images.githubusercontent.com/102036593/167431292-f2f9b40a-3462-4223-bccc-66feac2dfb87.jpg)
+
+![bath payment 2](https://user-images.githubusercontent.com/102036593/167431323-3d645597-175e-4aab-9ec7-0b95df27af3d.jpg)
+
+![bath payment3](https://user-images.githubusercontent.com/102036593/167431350-27e4d9a3-7ae0-4636-ac09-b2fbccc0a48c.jpg)
+
+
 
 
 
