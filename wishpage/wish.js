@@ -52,7 +52,7 @@ console.log(wishData) ;
 
     var name = document.createElement("p");
         name.setAttribute("id","itemname")
-    name.textContent = elem.titel;
+    name.textContent = elem.fname;
 
     let des = document.createElement("p");
        des.setAttribute("id","itemname2")
@@ -119,7 +119,7 @@ let count=1;
             console.log(ele)
             cartData.push(ele)
             localStorage.setItem("cart",JSON.stringify(cartData))
-            window.location.reload()
+            window.location.href="../cartpage/cart.html"
 
         }
 
