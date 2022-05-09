@@ -55,7 +55,7 @@ Local Storage.
 
 ##### Products Page by 
 
-# Product Display page by Akash Mondal.
+##### Product Display page by Akash Mondal.
 
 ![bath product diplay](https://user-images.githubusercontent.com/102036593/167427341-7f71c3e2-0369-40ca-901e-e057c63f4d14.jpg)
 
