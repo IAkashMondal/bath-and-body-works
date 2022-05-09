@@ -1,4 +1,7 @@
-#product-container {
+body{
+  font-family: Trade Gothic W01 Light, Arial, sans-serif;
+ 
+}#product-container {
   /* border: 3px solid blue; */
   margin-top: 1.4px;
 }

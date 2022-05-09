@@ -117,14 +117,14 @@ GiftShop.forEach(({img,fname,type,price,description}) =>{
 });
 
 
-let CartData = JSON.parse(localStorage.getItem("bag")) || [];
+let CartData = JSON.parse(localStorage.getItem("cart")) || [];
 let Display = JSON.parse(localStorage.getItem("display")) || [];
 
 
 let AddToBag = ({img,fname,type,price,description}) =>{
     //console.log({img,fname,type,price,description});
     CartData.push({img,fname,type,price,description});
-    localStorage.setItem("bag",JSON.stringify(CartData));
+    localStorage.setItem("cart",JSON.stringify(CartData));
     window.location.reload();
 }
 
@@ -136,3 +136,14 @@ let DisplayPage = ({img,fname,type,price,description}) =>{
     window.location.href = "../../display/display.html"
 }
 
+
+import {container} from "../../homepage/components/navbar.js"
+document.getElementById("navbar").innerHTML = container();
+
+let cartData = JSON.parse(localStorage.getItem("cart"))||[];
+
+var total = cartData.reduce(function (sum, elem, index, arr) {    return sum + Number(elem.price2);  }, 0);
+  var length = cartData.length;   console.log(length);
+var cartcoutup= document.querySelector("#usercart-items-display").innerText = `${length}`;
+
+//--------------------------------------------------------------------------------------------------

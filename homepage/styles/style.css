@@ -1,4 +1,7 @@
-#srinivas-container {
+body{
+  font-family: Trade Gothic W01 Light, Arial, sans-serif;
+ 
+}#srinivas-container {
   /* border: 3px solid rgb(255, 0, 0); */
   width: 100%;
   height: 12.5em;
