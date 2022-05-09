@@ -62,13 +62,6 @@ import-export.
 ![bath footer](https://user-images.githubusercontent.com/102036593/167463196-dd042a7a-f20f-451e-a122-29d273e81969.jpg)
 
 
-##### shop page Julhan Mohanto.
-
-![bath shop page 1](https://user-images.githubusercontent.com/102036593/167463269-a276cda8-e905-4e94-b1ff-84a80691df89.jpg)
-
-![bath shop page](https://user-images.githubusercontent.com/102036593/167463284-ad2e5387-58c7-43fb-a937-aa095040eb2e.jpg)
-
-
 ##### Products Page by Naresh Rajput.
 
 ![bath aroma](https://user-images.githubusercontent.com/102036593/167463065-9948b4a8-8c4d-4a06-af15-79bb8342c4be.jpg)
@@ -76,6 +69,13 @@ import-export.
 ![bath body care](https://user-images.githubusercontent.com/102036593/167463100-0b8833e2-5765-4943-a57f-3af7576d4c6b.jpg)
 
 ![bath candel](https://user-images.githubusercontent.com/102036593/167463112-30137fcd-8161-4b27-b929-b22a1a5647f4.jpg)
+
+
+##### shop page Julhan Mohanto.
+
+![bath shop page 1](https://user-images.githubusercontent.com/102036593/167463269-a276cda8-e905-4e94-b1ff-84a80691df89.jpg)
+
+![bath shop page](https://user-images.githubusercontent.com/102036593/167463284-ad2e5387-58c7-43fb-a937-aa095040eb2e.jpg)
 
 
 ##### Products Page Julhan Mohanto.
@@ -86,20 +86,18 @@ import-export.
 
 ![bath candel](https://user-images.githubusercontent.com/102036593/167463424-079b9517-d43d-4112-b163-8f447ceb47e6.jpg)
 ![bath body care](https://user-images.githubusercontent.com/102036593/167463425-97d3d4c4-1782-48db-bc7b-cb94f8915df6.jpg)
-![bath Wish Page](https://user-images.githubusercontent.com/102036593/167463427-6bf0c087-1db4-4801-adf8-e172893c24fc.jpg)
-![bath billing](https://user-images.githubusercontent.com/102036593/167463428-b763c0d7-fa75-4284-9a17-2f42ada30024.jpg)
-![bath payment3](https://user-images.githubusercontent.com/102036593/167463432-c5a644c7-e484-4ccf-9404-12e33c002ff7.jpg)
-![bath payment 2](https://user-images.githubusercontent.com/102036593/167463437-140c8dba-b976-4394-8523-602ddd9ba8fd.jpg)
-![bath payment1](https://user-images.githubusercontent.com/102036593/167463438-ec5ffd3a-bad2-474c-a986-18b6fb72d633.jpg)
-![bath cart 5](https://user-images.githubusercontent.com/102036593/167463441-8bbeb8de-fb0f-4f32-8917-af340107853a.jpg)
-![bath cart4](https://user-images.githubusercontent.com/102036593/167463443-9c778c65-825c-48da-81ae-2869591cc7ef.jpg)
-
 ![bath wall flower](https://user-images.githubusercontent.com/102036593/167463419-bda43fe5-9ff5-4857-bbc7-527a330e57fe.jpg)
 
 
 ##### Product Display page by Akash Mondal.
 
 ![bath product diplay](https://user-images.githubusercontent.com/102036593/167427341-7f71c3e2-0369-40ca-901e-e057c63f4d14.jpg)
+
+
+##### Wishlist Page by Akash Mondal.
+
+![bath Wish Page](https://user-images.githubusercontent.com/102036593/167432062-ad3c2b7e-815e-415d-8430-debdcbddf499.jpg)
+
 
 ##### Cart Page By Akash Mondal.
 
@@ -113,9 +111,6 @@ import-export.
 
 ![bath cart 5](https://user-images.githubusercontent.com/102036593/167427641-c42b2987-000e-43de-8c04-d03579a70434.jpg)
 
-##### Wishlist Page by Akash Mondal.
-
-![bath Wish Page](https://user-images.githubusercontent.com/102036593/167432062-ad3c2b7e-815e-415d-8430-debdcbddf499.jpg)
 
 ##### Payment Page by Pradhyumn Shukla.
 
