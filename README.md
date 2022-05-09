@@ -46,7 +46,7 @@ import-export.
 ![bath sign up](https://user-images.githubusercontent.com/102036593/167426370-b2f9dd87-4aea-4cbb-9910-ecb2c46daf66.jpg)
 
 
-##### HomePage by Srinivas K Bhat.
+##### • HomePage by Srinivas K Bhat.
 
 ![barth home](https://user-images.githubusercontent.com/102036593/167426448-42b8091e-ef77-402c-9083-598ee8800fa6.jpg)
 
@@ -57,12 +57,12 @@ import-export.
 ![bath footer](https://user-images.githubusercontent.com/102036593/167426568-1816d227-087d-4cd2-a9a5-16380afe5d2c.jpg)
 
 
-##### navbar by Naresh Rajput.
+##### • navbar by Naresh Rajput.
 
 ![bath footer](https://user-images.githubusercontent.com/102036593/167463196-dd042a7a-f20f-451e-a122-29d273e81969.jpg)
 
 
-##### Products Page by Naresh Rajput.
+##### • Products Page by Naresh Rajput.
 
 ![bath aroma](https://user-images.githubusercontent.com/102036593/167463065-9948b4a8-8c4d-4a06-af15-79bb8342c4be.jpg)
 
@@ -71,14 +71,14 @@ import-export.
 ![bath candel](https://user-images.githubusercontent.com/102036593/167463112-30137fcd-8161-4b27-b929-b22a1a5647f4.jpg)
 
 
-##### shop page Julhan Mohanto.
+##### • shop page Julhan Mohanto.
 
 ![bath shop page 1](https://user-images.githubusercontent.com/102036593/167463269-a276cda8-e905-4e94-b1ff-84a80691df89.jpg)
 
 ![bath shop page](https://user-images.githubusercontent.com/102036593/167463284-ad2e5387-58c7-43fb-a937-aa095040eb2e.jpg)
 
 
-##### Products Page Julhan Mohanto.
+##### • Products Page Julhan Mohanto.
 
 ![bath gift](https://user-images.githubusercontent.com/102036593/167463148-76f362f7-5558-4c62-85b6-e47ac3dc349f.jpg)
 
@@ -89,17 +89,17 @@ import-export.
 ![bath wall flower](https://user-images.githubusercontent.com/102036593/167463419-bda43fe5-9ff5-4857-bbc7-527a330e57fe.jpg)
 
 
-##### Product Display page by Akash Mondal.
+##### • Product Display page by Akash Mondal.
 
 ![bath product diplay](https://user-images.githubusercontent.com/102036593/167427341-7f71c3e2-0369-40ca-901e-e057c63f4d14.jpg)
 
 
-##### Wishlist Page by Akash Mondal.
+##### • Wishlist Page by Akash Mondal.
 
 ![bath Wish Page](https://user-images.githubusercontent.com/102036593/167432062-ad3c2b7e-815e-415d-8430-debdcbddf499.jpg)
 
 
-##### Cart Page By Akash Mondal.
+##### • Cart Page By Akash Mondal.
 
 ![bath cart page](https://user-images.githubusercontent.com/102036593/167427688-e4fa5d5e-1c90-4521-b648-5ed8ef080f8c.jpg)
 
@@ -112,7 +112,7 @@ import-export.
 ![bath cart 5](https://user-images.githubusercontent.com/102036593/167427641-c42b2987-000e-43de-8c04-d03579a70434.jpg)
 
 
-##### Payment Page by Pradhyumn Shukla.
+##### • Payment Page by Pradhyumn Shukla.
 
 ![bath payment1](https://user-images.githubusercontent.com/102036593/167431292-f2f9b40a-3462-4223-bccc-66feac2dfb87.jpg)
 
