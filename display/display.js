@@ -124,7 +124,7 @@ let imageS=document.createElement("img")
 let desprodiv =  document.createElement("div")
     desprodiv.setAttribute("id","desprodiv")
 
-let name = document.createElement("p")
+let name = document.createElement("h3")
 
     name.innerText =el.fname
 
@@ -135,6 +135,7 @@ let star =document.createElement("div")
 
 
 let des = document.createElement("p")
+    des.style.color="red";
     des.innerText=el.description ;
 
 let btnwish = document.createElement("button")

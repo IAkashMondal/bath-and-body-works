@@ -32,7 +32,7 @@ let f10 = new products("Fresh Cotton","Wallflowers Refills 2-Pack",14.50 ,"$7 Li
 let f11 = new products("Fresh Cut Lilacs","Wallflowers Fragrance Refill",7.50 ,"Mix & Match: 5/$18 or 7/$24","https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwa46718f9/crop/026397316_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_")
 let f12 = new products("Fresh Spring Morning","Wallflowers Fragrance Refill",7.50 ,"Mix & Match: 5/$18 or 7/$24","https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwce09b247/crop/026487220_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_")
 let f13 = new products("Linen & Lavender","Wallflowers Fragrance Refill",7.50 ,"Mix & Match: 5/$18 or 7/$24","https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwdc660c06/crop/026411736_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_")
-let f14 = new products("Mahogany Teakwood Increased Intensity","Wallflowers Fragrance Refill",7.50 ,"Mix & Match: 5/$18 or 7/$24","https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwcff163db/crop/026358678_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_")
+let f14 = new products("Mahogany Teakwood Intensity","Wallflowers Fragrance Refill",7.50 ,"Mix & Match: 5/$18 or 7/$24","https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwcff163db/crop/026358678_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_")
 let f15 = new products("Sun-Washed Citrus","Wallflowers Fragrance Refill",7.50 ,"Mix & Match: 5/$18 or 7/$24","https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw63552158/crop/026397341_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_")
 
 willflower.push(f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f11,f12,f13,f14,f15);
@@ -61,7 +61,8 @@ willflower.forEach(({img,fname,type,price,description}) =>{
     //span.style.display = "none"
     img_div.append(image,span)
 
-    let name = document.createElement("h3")
+    let name = document.createElement("h6")
+    name.style.fontSize ="large";
     name.innerText = fname;
 
     let types = document.createElement("p")
@@ -111,19 +112,18 @@ willflower.forEach(({img,fname,type,price,description}) =>{
 
 
 let CartData = JSON.parse(localStorage.getItem("cart")) || [];
-let Display = JSON.parse(localStorage.getItem("display")) || [];
-
 
 let AddToBag = ({img,fname,type,price,description}) =>{
     //console.log({img,fname,type,price,description});
     CartData.push({img,fname,type,price,description});
     localStorage.setItem("cart",JSON.stringify(CartData));
-    window.location.reload();
+    window.location.href="../../cartpage/cart.html";
 }
 
 
 let DisplayPage = ({img,fname,type,price,description}) =>{
     //console.log({img,fname,type,price,description});
+    let Display =[];
     Display.push({img,fname,type,price,description});
     localStorage.setItem("display",JSON.stringify(Display));
     window.location.href = "../../display/display.html"

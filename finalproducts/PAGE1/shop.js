@@ -202,7 +202,8 @@ BodyCareProducts.forEach(({img,fname,type,price,description}) =>{
     //span.style.display = "none"
     img_div.append(image,span)
 
-    let name = document.createElement("h3")
+    let name = document.createElement("h6")
+        name.style.fontSize ="large";
     name.innerText = fname;
 
     let types = document.createElement("p")
@@ -248,17 +249,19 @@ BodyCareProducts.forEach(({img,fname,type,price,description}) =>{
    
 });
 
-
 let CartData = JSON.parse(localStorage.getItem("cart")) || [];
-// let Display = JSON.parse(localStorage.getItem("display")) || [];
 
-
-
+let AddToBag = ({img,fname,type,price,description}) =>{
+    //console.log({img,fname,type,price,description});
+    CartData.push({img,fname,type,price,description});
+    localStorage.setItem("cart",JSON.stringify(CartData));
+    window.location.href="../../cartpage/cart.html";
+}
 
 
 let DisplayPage = ({img,fname,type,price,description}) =>{
-    let Display = [] ;
     //console.log({img,fname,type,price,description});
+    let Display =[];
     Display.push({img,fname,type,price,description});
     localStorage.setItem("display",JSON.stringify(Display));
     window.location.href = "../../display/display.html"
@@ -268,15 +271,7 @@ let DisplayPage = ({img,fname,type,price,description}) =>{
 
 
 
-// ===============================================
 
-
-let AddToBag = ({img,fname,type,price,description}) =>{
-    //console.log({img,fname,type,price,description});
-    CartData.push({img,fname,type,price,description});
-    localStorage.setItem("cart",JSON.stringify(CartData));
-    window.location.href="../../cartpage/cart.html"
-}
 // -----------hovs---------
 let newandnowFun = () => {
     let newandnow =  document.querySelector("#new-and-now");
