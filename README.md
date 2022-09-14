@@ -71,14 +71,14 @@ import-export.
 ![bath candel](https://user-images.githubusercontent.com/102036593/167463112-30137fcd-8161-4b27-b929-b22a1a5647f4.jpg)
 
 
-##### • shop page Julhan Mohanto.
+##### • shop pages by Jhulan Mahato.
 
 ![bath shop page 1](https://user-images.githubusercontent.com/102036593/167463269-a276cda8-e905-4e94-b1ff-84a80691df89.jpg)
 
 ![bath shop page](https://user-images.githubusercontent.com/102036593/167463284-ad2e5387-58c7-43fb-a937-aa095040eb2e.jpg)
 
 
-##### • Product Category Page Julhan Mohanto.
+##### • Product Category Page by Jhulan Mahato.
 
 ![bath gift](https://user-images.githubusercontent.com/102036593/167463148-76f362f7-5558-4c62-85b6-e47ac3dc349f.jpg)
 
@@ -134,7 +134,7 @@ import-export.
  - Srinivas K Bhat
  - Harsh Vyas
  - Naresh Rajput
- - Julhan Mohanto
+ - Jhulan Mahato
  - Pradhyumn Shukla
  - Akarsh Mondal
 
