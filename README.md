@@ -35,7 +35,7 @@ Local Storage.
 es6 +-.
 import-export.
 
- github link : https://iakashmondal.github.io/bath-and-body-works-2/
+ Deployment link : https://iakashmondal.github.io/bath-and-body-works/
  
 ## Website Flow.
 
